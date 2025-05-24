@@ -3,7 +3,7 @@
 	"id": "wiki-search-mod",
 	"version": "${version}",
 	"name": "Wiki Search Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "一个Minecraft Fabric模组，允许玩家在游戏中直接搜索Minecraft Wiki，支持多语言Wiki站点自动切换和自定义搜索链接。",
 	"authors": [
 		"Me!"
 	],
