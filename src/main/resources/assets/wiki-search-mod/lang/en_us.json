@@ -1,0 +1,16 @@
+{
+  "gui.wiki-search.title": "MC Wiki Search",
+  "gui.wiki-search.placeholder": "Type to search...",
+  "gui.wiki-search.button.search": "Search",
+  "category.wiki_search.main": "Wiki Search",
+  "key.wiki-search.open_search": "Open Search GUI",
+  "key.wiki-search.open_config": "Open Config GUI",
+  "gui.wiki-search.error.empty": "Please enter the search content.",
+  "category.general": "General Settings",
+  "option.auto_language": "Auto-Detect Language",
+  "option.custom_template": "Custom Search URL",
+  "tooltip.auto_language": "Automatically select Wiki site based on game language",
+  "tooltip.custom_template": "Use %s as search term placeholder",
+  "tooltip.wiki_search.custom_template": "Custom search URL template, use %s as placeholder",
+  "text.cloth-config.requirement_error": "Please disable the auto-detect language first, otherwise you will not be able to use the custom template normally."
+}

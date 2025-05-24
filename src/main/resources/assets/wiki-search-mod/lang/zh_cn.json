@@ -1,0 +1,16 @@
+{
+  "gui.wiki-search.title": "MC Wiki搜索",
+  "gui.wiki-search.placeholder": "输入搜索内容...",
+  "gui.wiki-search.button.search": "搜索",
+  "category.wiki_search.main": "Wiki搜索",
+  "key.wiki-search.open_search": "打开搜索框",
+  "key.wiki-search.open_config": "打开配置界面",
+  "gui.wiki-search.error.empty": "搜索内容不能为空",
+  "category.general": "通用设置",
+  "option.auto_language": "自动检测语言",
+  "option.custom_template": "自定义搜索链接",
+  "tooltip.auto_language": "根据游戏语言自动选择Wiki站点",
+  "tooltip.custom_template": "使用 %s 作为搜索词占位符",
+  "tooltip.wiki_search.custom_template": "在此输入自定义搜索链接，使用 %s 作为搜索词占位符",
+  "text.cloth-config.requirement_error": "请先禁用自动检测语言，否则将无法正常使用自定义模板。"
+}
