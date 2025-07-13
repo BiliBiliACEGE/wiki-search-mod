@@ -14,6 +14,15 @@ import java.util.concurrent.TimeUnit;
 public class SearchScreen extends Screen {
     // 1. 声明为类成员变量
     private TextFieldWidget searchField;
+    
+    @Override
+    public boolean keyPressed(int keyCode, int scanCode, int modifiers) {
+        if (keyCode == 257) { // 回车键
+            this.performSearch();
+            return true;
+        }
+        return super.keyPressed(keyCode, scanCode, modifiers);
+    }
 
     public SearchScreen() {
         super(Text.translatable("gui.wiki-search.title"));
@@ -88,4 +97,3 @@ public class SearchScreen extends Screen {
         }
     }
 }
-

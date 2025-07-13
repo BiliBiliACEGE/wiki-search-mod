@@ -5,6 +5,7 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.annotations.SerializedName;
 import net.ace.util.LanguageHelper;
 import net.fabricmc.loader.api.FabricLoader;
+import net.minecraft.text.Text;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -25,6 +26,12 @@ public class ModConfig {
 
     private ModConfig() {
         // 私有构造函数防止外部实例化
+        if (INSTANCE != null) {
+            throw new IllegalStateException("ModConfig is a singleton!");
+        }
+        INSTANCE = this;
+        setDefaultValues();
+        validateValues();
     }
 
     public static ModConfig getInstance() {
@@ -48,7 +55,6 @@ public class ModConfig {
             INSTANCE = GSON.fromJson(json, ModConfig.class);
             INSTANCE.validateValues(); // 校验加载的值
         } catch (IOException | IllegalArgumentException e) {
-            System.err.println("无法加载配置，使用默认值: " + e.getMessage());
             INSTANCE = new ModConfig();
             INSTANCE.setDefaultValues();
         }
@@ -86,6 +92,7 @@ public class ModConfig {
 
     public void setSearchUrlTemplate(String template) {
         this.searchUrlTemplate = template;
+        save();
     }
 
     public boolean isUseAutoLanguage() {
@@ -94,5 +101,6 @@ public class ModConfig {
 
     public void setUseAutoLanguage(boolean useAutoLanguage) {
         this.useAutoLanguage = useAutoLanguage;
+        save();
     }
 }

@@ -12,5 +12,5 @@
   "tooltip.auto_language": "根据游戏语言自动选择Wiki站点",
   "tooltip.custom_template": "使用 %s 作为搜索词占位符",
   "tooltip.wiki_search.custom_template": "在此输入自定义搜索链接，使用 %s 作为搜索词占位符",
-  "text.cloth-config.requirement_error": "请先禁用自动检测语言，否则将无法正常使用自定义模板。"
+  "text.cloth-config.requirement": "请先禁用自动检测语言，否则将无法正常使用自定义模板。"
 }

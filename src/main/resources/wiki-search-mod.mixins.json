@@ -1,9 +1,9 @@
 {
 	"required": true,
 	"package": "net.ace.mixin",
-	"compatibilityLevel": "JAVA_17",
+	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+      "MainMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

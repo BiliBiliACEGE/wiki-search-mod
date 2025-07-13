@@ -26,14 +26,7 @@
 - `自动检测语言`: 根据游戏语言自动选择Wiki站点
 - `自定义搜索链接`: 使用`%s`作为搜索词占位符
 
-## 截图
-
-![搜索界面截图](assets/wiki-search-mod/screenshot.png)
 
 ## 支持
 
 如有问题，请在GitHub Issues中反馈。
-
-## 许可证
-
-CC0-1.0

@@ -12,5 +12,5 @@
   "tooltip.auto_language": "Automatically select Wiki site based on game language",
   "tooltip.custom_template": "Use %s as search term placeholder",
   "tooltip.wiki_search.custom_template": "Custom search URL template, use %s as placeholder",
-  "text.cloth-config.requirement_error": "Please disable the auto-detect language first, otherwise you will not be able to use the custom template normally."
+  "text.cloth-config.requirement": "Please disable the auto-detect language first, otherwise you will not be able to use the custom template normally."
 }

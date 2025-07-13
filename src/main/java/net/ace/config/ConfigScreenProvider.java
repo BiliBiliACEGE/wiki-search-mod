@@ -5,6 +5,8 @@ import me.shedaniel.clothconfig2.api.ConfigCategory;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.text.Text;
 
+import java.util.Optional;
+
 public class ConfigScreenProvider {
     public static Screen createConfigScreen(Screen parent) {
         ModConfig config = ModConfig.getInstance();
@@ -25,10 +27,9 @@ public class ConfigScreenProvider {
                 .startStrField(Text.translatable("option.custom_template"), config.getSearchUrlTemplate())
                 .setTooltip(Text.translatable("tooltip.wiki_search.custom_template"))
                 .setSaveConsumer(config::setSearchUrlTemplate)
-                .setRequirement(() -> !config.isUseAutoLanguage()) // ✅ 动态条件
+                .setRequirement(() -> !config.isUseAutoLanguage())
                 .build());
 
         return builder.build();
     }
 }
-
