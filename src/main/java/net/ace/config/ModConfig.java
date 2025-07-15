@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-public class ModConfig {
+public class ModConfig { // 配置类
     // 配置字段（使用@SerializedName定义JSON键名）
     @SerializedName("search_url_template")
     private String searchUrlTemplate;

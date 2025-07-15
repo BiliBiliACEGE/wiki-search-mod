@@ -11,7 +11,7 @@ import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 import java.util.concurrent.TimeUnit;
 
-public class SearchScreen extends Screen {
+public class SearchScreen extends Screen { // 搜索界面
     // 1. 声明为类成员变量
     private TextFieldWidget searchField;
     

@@ -7,7 +7,7 @@ import net.minecraft.text.Text;
 
 import java.util.Optional;
 
-public class ConfigScreenProvider {
+public class ConfigScreenProvider { // 配置提供器
     public static Screen createConfigScreen(Screen parent) {
         ModConfig config = ModConfig.getInstance();
         ConfigBuilder builder = ConfigBuilder.create()

@@ -6,7 +6,7 @@ import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 
 public class WikiSearchModClient implements ClientModInitializer {
     @Override
-    public void onInitializeClient() {
+    public void onInitializeClient() {  // 客户端初始化
         // 注册快捷键
         KeybindManager.registerKeybinds();
 

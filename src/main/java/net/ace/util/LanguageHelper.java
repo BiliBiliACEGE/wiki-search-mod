@@ -3,7 +3,7 @@ package net.ace.util;
 import net.ace.config.ModConfig;
 import net.minecraft.client.MinecraftClient;
 
-public class LanguageHelper {
+public class LanguageHelper { // 语言助手类
     public static String getSearchUrlTemplate() {
         ModConfig config = ModConfig.getInstance();
 
