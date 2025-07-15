@@ -29,9 +29,9 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
-	modApi "me.shedaniel.cloth:cloth-config-fabric:19.0.147"
-	include "me.shedaniel.cloth:cloth-config-fabric:19.0.147"
-	modImplementation "com.terraformersmc:modmenu:15.0.0-beta.3"
+	modApi "me.shedaniel.cloth:cloth-config-fabric:11.1.136"
+	include "me.shedaniel.cloth:cloth-config-fabric:11.1.136"
+	modImplementation "com.terraformersmc:modmenu:7.0.1"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 	
 }
